@@ -1,0 +1,124 @@
+:root {
+  --blair-red1-color: rgb(186, 34, 34);
+  --blair-red2-color: #990000;
+  --blair-white1-color: #EEEEEE;
+  --blair-white2-color: #FFFFFF;
+  --dark-blue1-color: rgb(25, 33, 82);
+  --dark-blue2-color: rgb(25, 60, 102);
+  --med-blue1-color: #3ab4cc;;
+}
+
+header {
+  /* border: red 1px solid; */
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+  margin: 2rem 0 0.5rem 0;
+}
+header p {
+  text-align: center;
+}
+
+footer {
+  /* border: green 4px solid; */
+  width: 100%;
+  margin: 1rem 0 1.5rem;
+}
+
+.contact-box {
+  /* border: yellow 2px solid; */
+  margin: 1rem auto 1rem;
+  color: aliceblue;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.call-to-action {
+  color: aliceblue;
+  text-align: center;
+}
+
+
+/* Accordion Styles */
+
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: transparent;
+  border: var(--blair-red1-color) 1px solid;
+  color: aliceblue;
+}
+
+.accordion-title:hover {
+  background-color: var(--med-blue1-color);
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: rgb(25, 60, 102);
+  color: white;
+}
+
+.accordion-item {
+  margin: 0.25rem;
+}
+
+
+/* from blair website */
+
+#banner {
+  height: 120px;
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #990000;
+  border-radius: 10px;
+  font-family: Helvetica, Tahoma, Sans-Serifs;
+  color: #990000;
+  float: left;
+  width: 557px;
+  /* overflow: hidden; */
+}
+
+#shortcutsHeading {
+  font-size: 15px;
+  font-weight: 700;
+  color: #990000;
+  margin-bottom: -7px;
+  color: #FFFFFF;
+  background-color: rgb(186, 34, 34);
+  padding: 3px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: rgb(186, 34, 34);
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+}

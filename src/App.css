@@ -16,20 +16,79 @@ header {
   justify-content: center;
 }
 
-header h1 {
-  text-align: center;
-  margin: 2rem 0 0.5rem 0;
-}
 header p {
   text-align: center;
+}
+
+header .banner {
+  width: 100%;
+  height: 30vh;
+  background-image: url("/images/header-school-blair.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 footer {
   /* border: green 4px solid; */
   width: 100%;
-  margin: 1rem 0 1.5rem;
+  margin: 1rem 0 2rem;
+  padding-bottom: 1rem;
 }
 
+.bg {
+  background-image: url('/images/Japanese-Pattern-1.jpg');
+  background-color: var(--dark-blue1-color);
+  background-blend-mode:luminosity;
+  background-size: 175%;
+  background-repeat: repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.8;
+  width: 100vw;
+  height:100vh;
+}
+
+.title {
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.v-stripe {
+  width: 60vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 20vw;
+  background-color: var(--dark-blue1-color);
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, .8) 0 0 10px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.v-stripe h1 {
+  color: aliceblue;
+}
+
+.v-stripe h4 {
+  margin-top: .5rem;
+  color: aliceblue;
+}
+
+.main-content {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.main-content img {
+  width: 100%;
+
+}
 .contact-box {
   /* border: yellow 2px solid; */
   margin: 1rem auto 1rem;
@@ -41,73 +100,41 @@ footer {
 .call-to-action {
   color: aliceblue;
   text-align: center;
+  width: 100%;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.5rem 0 0.5rem;
+  background-color: var(--blair-red2-color);
+}
+
+.container {
+  width: 90%;
+  max-width: 920px;
+  padding-bottom: 2em;
+  margin: 4rem auto 2em;
+  background:var(--blair-white2-color);
+  border-radius: 1rem;
+  box-shadow: 0 3px rgba(0, 0, 0, .1);
+  overflow: hidden;
+  border: var(--blair-white1-color) 4px solid;
 }
 
 
-/* Accordion Styles */
+/* MAIN NAV -------- */
 
-.accordion {
-  max-width: 600px;
-  margin: 2rem auto;
+.main-nav a {
+  font-size: .95em;
+  color: #222;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding: 1em;
+  transition: .2s;
 }
 
-.accordion-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  cursor: pointer;
-  background-color: transparent;
-  border: var(--blair-red1-color) 1px solid;
-  color: aliceblue;
-}
-
-.accordion-title:hover {
-  background-color: var(--med-blue1-color);
-}
-
-.accordion-title,
-.accordion-content {
-  padding: 1rem;
-}
-
-.accordion-content {
-  background-color: rgb(25, 60, 102);
-  color: white;
-}
-
-.accordion-item {
-  margin: 0.25rem;
-}
-
-
-/* from blair website */
-
-#banner {
-  height: 120px;
-  background-color: #EEEEEE;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #990000;
-  border-radius: 10px;
-  font-family: Helvetica, Tahoma, Sans-Serifs;
-  color: #990000;
-  float: left;
-  width: 557px;
-  /* overflow: hidden; */
-}
-
-#shortcutsHeading {
-  font-size: 15px;
-  font-weight: 700;
-  color: #990000;
-  margin-bottom: -7px;
-  color: #FFFFFF;
-  background-color: rgb(186, 34, 34);
-  padding: 3px;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 3px;
-  border-color: rgb(186, 34, 34);
+.main-nav a:hover,
+.main-nav .active {
+  color: #fff;
+  background: #3b80d1;
 }
 
 
@@ -120,5 +147,110 @@ footer {
 
   .accordion {
     width: 90%;
+  }
+}
+
+
+
+/* ================================= 
+  MEDIA QUERIES
+==================================== */
+
+@media (min-width: 0) and (max-width: 768px) {
+  body {
+    padding-top: .8em;
+  }
+
+  .home a {
+    border-color: transparent;
+  }
+
+
+  .main-nav a {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .main-nav a:hover {
+    border-color: rgba(0, 0, 0, .1);
+  }
+
+  .courses h2 {
+    margin-bottom: 0;
+  }
+
+  .course-nav {
+    display: block;
+    margin: 1.5em 0 3.2em;
+  }
+
+  .home a,
+  input,
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    padding-top: 3em;
+  }
+
+  .home a {
+    border-color: #3b80d1;
+  }
+
+  .media img,
+  .media>div,
+  .teacher {
+    float: left;
+  }
+
+  .media>div {
+    width: 85.1%;
+    margin-left: 1.5em;
+  }
+
+  .teacher {
+    width: 48.73%;
+    margin-bottom: 1.5em;
+  }
+
+  .teacher+.teacher {
+    margin-left: 2.54%;
+  }
+
+  .teacher:nth-child(2n+3) {
+    clear: left;
+    margin-left: 0;
+  }
+
+  /* MAIN NAV -------- */
+  header,
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .main-nav a {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    padding: 1.25em 1.5em;
+  }
+
+  .main-nav a:hover {
+    border-color: rgba(0, 0, 0, .1);
+  }
+
+  /* COURSE NAV -------- */
+  .course-nav {
+    float: right;
+  }
+
+  .courses h2 {
+    float: left;
   }
 }

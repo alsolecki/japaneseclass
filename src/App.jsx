@@ -1,31 +1,37 @@
 import './App.css'
 import React from 'react';
-import Accordion from './components/accordian.jsx';
-import { accordionData } from './Content'
+import { Route, Routes } from "react-router-dom";
 
-import Header from './components/header.jsx'
+import Home from './Home.jsx';
+import CourseInfo from './CourseInfo';
+import Header from './Header.jsx';
+import Beyond from './Beyond.jsx';
 import Footer from './components/footer.jsx'
+import CalltoAction from './components/CalltoAction.jsx'
 
 function App() {
 
-
   return (
     <>
-      <Header />
-
-      <div className="call-to-action">
-        <h3>sign up for WLG 2081 A/B</h3>
+      <div className="bg">
+        <div className="v-stripe"></div>
       </div>
-
-      <div>
-        <div className="accordion">
-          {accordionData.map(({ title, content }) => (
-            <Accordion title={title} content={content} />
-          ))}
-        </div>
+      <div className="title">
+        <h1>Japanese Language Program</h1>
+        <h4>Montgomery Blair High School</h4>
       </div>
-
-      <Footer />
+      
+      <div className="container">
+        
+        <Header />
+        <CalltoAction />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="courseinfo" element={<CourseInfo />} />
+          <Route path="beyond" element={<Beyond />} />
+        </Routes>
+      </div>
+        <Footer />
     </>
   )
 }

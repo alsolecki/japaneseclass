@@ -6,8 +6,8 @@ import Home from './Home.jsx';
 import CourseInfo from './CourseInfo';
 import Header from './Header.jsx';
 import Beyond from './Beyond.jsx';
-import Footer from './components/footer.jsx'
-import CalltoAction from './components/CalltoAction.jsx'
+import Footer from './footer.jsx'
+import CalltoAction from './CalltoAction.jsx'
 
 function App() {
 
@@ -20,11 +20,12 @@ function App() {
         <h1>Japanese Language Program</h1>
         <h4>Montgomery Blair High School</h4>
       </div>
+        
+      {/* <CalltoAction /> */}
       
       <div className="container">
         
         <Header />
-        <CalltoAction />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="courseinfo" element={<CourseInfo />} />

@@ -6,7 +6,7 @@ const Beyond = () => {
       <div className="topic">
         <h3>2023 Japan Bowl</h3>
         <p> Every year, Blair competes at the national Japan Bowl. Nostrud cillum id laboris minim proident minim Lorem est laboris labore deserunt duis.</p>
-        <img src="images/Japan Bowl 4-13-23.jpeg" alt="class at Japan Bowl 2023"/>
+        <img src="images/Japan Bowl 4-13-23.jpeg" alt="class at Japan Bowl 2023" />
         <img src="images/Japan Bowl 4-13-23 2 2.jpeg" alt="class at Japan Bowl 2023"/>
       </div>
       <div className="topic">
@@ -15,7 +15,6 @@ const Beyond = () => {
         <img src="images/whitehousevisit-1.jpeg" alt="class at whitehouse"/>
         <img src="images/whitehousevisit-2.jpeg" alt="class at whitehouse"/>
         <img src="images/whitehousevisit-3.jpeg" alt="class at whitehouse"/>
-        <img src="images/whitehousevisit-4.jpeg" alt="class at whitehouse"/>
       </div>
       <div className="topic">
         <h3>2008 and 2015 Trips to Japan</h3>

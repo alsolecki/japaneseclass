@@ -16,6 +16,13 @@ header {
   justify-content: center;
 }
 
+header ul {
+  border: green solid 4px;
+}
+header ul li {
+  border: orange 1px solid;
+}
+
 header p {
   text-align: center;
 }
@@ -46,7 +53,7 @@ footer {
   top: 0;
   left: 0;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 0.4;
   width: 100vw;
   height:100vh;
 }
@@ -57,6 +64,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 60vw;
+  margin: 1rem auto 1rem;
+}
+
+.title h4 {
+  padding-top: 1rem;
 }
 
 .v-stripe {
@@ -72,15 +85,6 @@ footer {
   padding-top: 1rem;
 }
 
-.v-stripe h1 {
-  color: aliceblue;
-}
-
-.v-stripe h4 {
-  margin-top: .5rem;
-  color: aliceblue;
-}
-
 .main-content {
   padding: 1rem 1rem 1rem 1rem;
 }
@@ -90,11 +94,14 @@ footer {
 
 }
 .contact-box {
-  /* border: yellow 2px solid; */
+  width: 60vw;
   margin: 1rem auto 1rem;
   color: aliceblue;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
   text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .call-to-action {
@@ -110,12 +117,22 @@ footer {
   width: 90%;
   max-width: 920px;
   padding-bottom: 2em;
-  margin: 4rem auto 2em;
+  margin: 1.25rem auto 1rem;
   background:var(--blair-white2-color);
   border-radius: 1rem;
   box-shadow: 0 3px rgba(0, 0, 0, .1);
   overflow: hidden;
   border: var(--blair-white1-color) 4px solid;
+}
+
+.topic {
+  border: purple 2px solid;
+  width: 60vw;
+  margin: 1rem auto 1rem;
+}
+
+.topic h3 {
+  margin-bottom: 0.5rem;
 }
 
 
@@ -136,20 +153,6 @@ footer {
   color: #fff;
   background: #3b80d1;
 }
-
-
-
-
-@media screen and (max-width: 700px) {
-  body {
-    font-size: 18px;
-  }
-
-  .accordion {
-    width: 90%;
-  }
-}
-
 
 
 /* ================================= 

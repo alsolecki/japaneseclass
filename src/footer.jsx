@@ -7,7 +7,7 @@ const Footer = () => {
           <p>Instructor Yoko H. Zoll</p>
           <p>Yoko_H_Zoll@mcpsmd.org</p>
           <p>Montgomery Blair High School</p>
-          <p>copyright 2023</p>
+          <p>copyright &#169;2023</p>
         </div>
     </footer>
   )

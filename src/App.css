@@ -8,6 +8,10 @@
   --med-blue1-color: #3ab4cc;;
 }
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
   /* border: red 1px solid; */
   color: aliceblue;
@@ -126,15 +130,32 @@ footer {
 }
 
 .topic {
-  border: purple 2px solid;
-  width: 60vw;
+  /* border: purple 2px solid; */
+  width: 80vw;
+  max-width: 720px;
   margin: 1rem auto 1rem;
+
+}
+.topic.fact p {
+  font-weight: 100;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.topic p {
+  
+  margin: 0.75rem 0;
+  line-height: 1.4rem;
 }
 
-.topic h3 {
-  margin-bottom: 0.5rem;
+figcaption {
+  color: gray;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
 }
-
+figure.smaller {
+  max-width: 400px;
+  margin: 0.5rem auto;
+}
 
 /* MAIN NAV -------- */
 

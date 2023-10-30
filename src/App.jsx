@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Route, Routes } from "react-router-dom";
 
 import Home from './Home.jsx';
@@ -13,12 +13,36 @@ function App() {
 
   const [ callVisible, setCallVisible ] = useState(true);
 
-  const handleCallVisible = () => {
-    if (callVisible) {
-      setCallVisible(false)
-    }  
-    console.log('change')
-  }
+  // const handleCallVisible = () => {
+    //   if (callVisible) {
+      //     setCallVisible(false)
+      //   }  
+      //   console.log('change')
+      // }
+  
+  
+  let menuRef = useRef;
+      
+  useEffect(() => {
+    let handler = (e) => {
+        // if (!menuRef.current.contains(e.target)) {
+        //     setCallVisible(false);
+        // }
+        // console.log(e.target.className);
+
+        if(e.target.className == "call-to-action-bg") {
+          setCallVisible(false);
+        }
+    };
+
+    document.addEventListener("mousedown", handler )
+
+    return() => {
+        document.removeEventListener("mousedown", handler )
+    }
+});
+
+  
 
   return (
     <>
@@ -32,7 +56,7 @@ function App() {
         <button 
           onClick={() => setCallVisible(true)}
           style={{background: "transparent", border: "none", color: "var(--med-blue1-color)", marginTop: "0.5rem", cursor: "pointer"
-        }}>Registration Info</button>
+        }}>Click Here For Registration Info</button>
       </div>
         
       

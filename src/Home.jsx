@@ -1,4 +1,9 @@
 import React from 'react'
+import street from "/shibuya-street-tokyo-japan-scaled.jpg";
+import robots from "/robotics-01.jpg";
+import anime from "/anime-01.jpeg";
+import jpop from "/5767061564_2370bdde78_z.jpg";
+
 
 const Home = () => {
   return (
@@ -11,22 +16,22 @@ const Home = () => {
 
         <p>The U.S. and Japan are allies, and both are among the top five economies in the world. Japanese will prepare you for a future career in global business!</p>
         <figure>
-          <img src="/public/shibuya-street-tokyo-japan-scaled.jpg" alt="japanese street scene" />
+          <img src={street} alt="japanese street scene" />
           <figcaption>Busy Japanese street scene.</figcaption>
         </figure>
         <p>The Japanese are leaders in the fields of technology, medicine, automobiles, engineering and many other sciences.</p>
         <figure>
-          <img src="/public/robotics-01.jpg" alt="robots" />
+          <img src={robots} alt="robots" />
           <figcaption>Japanese robots are at the cutting edge.</figcaption>
         </figure>
         <p>It will set you apart from the crowd!</p>
         <figure>
-          <img src="/public/anime-01.jpeg" alt="anime characters" />
+          <img src={anime} alt="anime characters" />
           <figcaption>Anime have fans across the globe.</figcaption>
         </figure>
         <p>The Japanese culture is rich with centuries old traditions and a modern day pheonomena like Manga, Anime and J-Pop.</p>
         <figure>
-          <img src="/public/5767061564_2370bdde78_z.jpg" alt="J-Pop group performing on stage" />
+          <img src={jpop} alt="J-Pop group performing on stage" />
           <figcaption>J-Pop idol group performing on stage.</figcaption>
         </figure>
       </div>

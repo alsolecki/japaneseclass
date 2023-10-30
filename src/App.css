@@ -96,20 +96,48 @@ footer {
   padding-bottom: 0.5rem;
 }
 
-.call-to-action {
+.call-to-action-modal {
   color: aliceblue;
   text-align: center;
-  width: 100%;
-  margin: 0.5rem 0 0.5rem;
+  width: 80%;
+  height: 180px;
+  margin: 0.5rem auto 0.5rem;
   padding: 0.5rem 0 0.5rem;
   background-color: var(--blair-red2-color);
+  position: fixed;
+  top: 27vh;
+  opacity: 1;
+  box-shadow:rgba(0, 0, 0, .5) 5px 5px 10px;
+}
+
+.call-to-action-bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(50, 50, 50, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+
+.call-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+}
+
+.call-info p {
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
 }
 
 .container {
   width: 90%;
   max-width: 920px;
   padding-bottom: 2em;
-  margin: 1.25rem auto 1rem;
+  margin: 0.25rem auto 1rem;
   background:var(--blair-white2-color);
   border-radius: 1rem;
   box-shadow: 0 3px rgba(0, 0, 0, .1);
@@ -158,12 +186,12 @@ figure.smaller {
   text-decoration: none;
   display: block;
   padding: 1em;
-  transition: .25s;
+  transition: .2s;
 }
 
 .main-nav a:hover,
 .main-nav .active {
-  color: #fff;
+  color: var(--blair-white2-color);
   background: var(--blair-red1-color);
 }
 

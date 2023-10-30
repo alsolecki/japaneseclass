@@ -1,4 +1,7 @@
 import React from 'react'
+import writing from "/japaneseWritingTypes.jpeg";
+import courses from "/courseGraphic.jpeg";
+
 
 const CourseInfo = () => {
   return (
@@ -14,14 +17,14 @@ const CourseInfo = () => {
         <h3>Reading & Writing Japanese</h3>
         <p>Achievement of these skills progresses slowly, but surely. Japanese is written in a combination of Kanji (Chinese characters) and two phonetic ways of writing Hiragana and Katakana.</p>
         <figure className="smaller">
-          <img src="public/japaneseWritingTypes.jpeg" alt="diagram of courses" />
+          <img src={writing} alt="diagram of courses" />
           <figcaption>Examples of Kanji, Hiragana and Katakana writing styles.</figcaption>
         </figure>
       </div>
       <div className="topic">
         <h3>Outline of Courses:</h3>
         <figure className="smaller">
-          <img src="public/courseGraphic.jpeg" alt="diagram of courses" />
+          <img src={courses} alt="diagram of courses" />
           <figcaption>Level 1, Level 2, Level 3 honors, Level 4 honors and AP.</figcaption>
         </figure>
       </div>

@@ -1,5 +1,5 @@
 import './App.css'
-import React from 'react';
+import React, { useState } from 'react';
 import { Route, Routes } from "react-router-dom";
 
 import Home from './Home.jsx';
@@ -11,17 +11,31 @@ import CalltoAction from './CalltoAction.jsx'
 
 function App() {
 
+  const [ callVisible, setCallVisible ] = useState(true);
+
+  const handleCallVisible = () => {
+    if (callVisible) {
+      setCallVisible(false)
+    }  
+    console.log('change')
+  }
+
   return (
     <>
+      {callVisible && <CalltoAction setCallVisible={ setCallVisible } />}
       <div className="bg">
         <div className="v-stripe"></div>
       </div>
       <div className="title">
         <h1>Japanese Language Program</h1>
         <h4>Montgomery Blair High School</h4>
+        <button 
+          onClick={() => setCallVisible(true)}
+          style={{background: "transparent", border: "none", color: "var(--med-blue1-color)", marginTop: "0.5rem", cursor: "pointer"
+        }}>Registration Info</button>
       </div>
         
-      {/* <CalltoAction /> */}
+      
       
       <div className="container">
         

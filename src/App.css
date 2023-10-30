@@ -13,7 +13,6 @@
 }
 
 header {
-  /* border: red 1px solid; */
   color: aliceblue;
   display: flex;
   flex-direction: column;
@@ -23,7 +22,7 @@ header {
 header .banner {
   width: 100%;
   height: 30vh;
-  background-image: url("/images/header-school-blair.jpg");
+  background-image: url("/public/header-school-blair.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -37,7 +36,7 @@ footer {
 }
 
 .bg {
-  background-image: url('/images/Japanese-Pattern-1.jpg');
+  background-image: url('/public/Japanese-Pattern-1.jpg');
   background-color: var(--dark-blue1-color);
   background-blend-mode:luminosity;
   background-size: 175%;
@@ -168,7 +167,6 @@ figure.smaller {
   background: var(--blair-red1-color);
 }
 
-
 /* ================================= 
   MEDIA QUERIES
 ==================================== */
@@ -179,9 +177,7 @@ figure.smaller {
     border: none;
     background-color: var(--blair-white1-color);
   }
-
 }
-
 
 @media (min-width: 900px) {
  
@@ -191,6 +187,4 @@ figure.smaller {
     background-color: var(--blair-white1-color);
     list-style-type: none;
   }
-
-
 }

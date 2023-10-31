@@ -41,7 +41,7 @@ const Beyond = () => {
       </div>
       <div className="topic">
         <h3>Trips to Japan</h3>
-        <p> In 2008 and 2015 Blair students visited Japan. </p>
+        <p> In 2010, 2014 and 2019 Blair students visited Japan. </p>
 
       </div>
     </div>

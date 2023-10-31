@@ -29,7 +29,7 @@ const Home = () => {
           <img src={anime} alt="anime characters" />
           <figcaption>Anime have fans across the globe.</figcaption>
         </figure>
-        <p>The Japanese culture is rich with centuries old traditions and a modern day pheonomena like Manga, Anime and J-Pop.</p>
+        <p>The Japanese culture is rich with centuries old traditions and a modern day phenomena like Manga, Anime and J-Pop.</p>
         <figure className="bigger">
           <img src={jpop} alt="J-Pop group performing on stage" />
           <figcaption>J-Pop idol group performing on stage.</figcaption>

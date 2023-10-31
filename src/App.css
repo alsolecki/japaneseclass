@@ -108,13 +108,14 @@ footer {
   top: 27vh;
   opacity: 1;
   box-shadow:rgba(0, 0, 0, .5) 5px 5px 10px;
+  border-radius: 5px;
 }
 
 .call-to-action-bg {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  background-color: rgba(50, 50, 50, 0.8);
+  background-color: rgba(50, 50, 50, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,9 +199,13 @@ figure.bigger {
   transition: .2s;
 }
 
-.main-nav a:hover,
-.main-nav .active {
+.main-nav a:hover {
   color: var(--blair-white2-color);
+  background: var(--blair-red2-color);
+}
+
+.main-nav .active {
+  color: var(--blair-white1-color);
   background: var(--blair-red1-color);
 }
 

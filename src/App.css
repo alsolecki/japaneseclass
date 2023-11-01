@@ -36,16 +36,30 @@ footer {
 }
 
 .bg {
-  background-image: url('/Japanese-Pattern-1.jpg');
-  background-color: var(--dark-blue1-color);
-  background-blend-mode:luminosity;
-  background-size: 175%;
+  background-image: url('/Japanese-Pattern-1red.jpg');
+  background-color: var(--blair-red2-color);
+  background-blend-mode:normal;
+  background-size: 150%;
   background-repeat: repeat;
   position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
-  opacity: 0.35;
+  opacity: 0.75;
+  width: 100vw;
+  height:100vh;
+}
+.bg2 {
+  background-image: url('/Japanese-Pattern-2.jpg');
+  background-color: var(--blair-red2-color);
+  background-blend-mode:normal;
+  background-size: 150%;
+  background-repeat: repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.75;
   width: 100vw;
   height:100vh;
 }
@@ -70,7 +84,7 @@ footer {
   position: absolute;
   bottom: 0;
   left: 20vw;
-  background-color: var(--dark-blue1-color);
+  background-color: var(--blair-red2-color);
   z-index: 1;
   box-shadow: rgba(0, 0, 0, .8) 0 0 10px;
   text-align: center;
@@ -213,7 +227,7 @@ figure.bigger {
   MEDIA QUERIES
 ==================================== */
 
-@media (min-width: 0) and (max-width: 899px) {
+@media (min-width: 0) and (max-width: 919px) {
  
   header ul {
     border: none;
@@ -221,7 +235,7 @@ figure.bigger {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 920px) {
  
   header ul {
     display: grid;

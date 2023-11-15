@@ -14,6 +14,14 @@ import japantrip6 from "/japantrip-06.jpg";
 import japantrip7 from "/japantrip-07.jpg";
 import japantrip8 from "/japantrip-08.jpg";
 import japantrip9 from "/japantrip-09.jpg";
+import onigiri1 from "/IMG_3979.jpg";
+import onigiri2 from "/IMG_3980.jpg";
+import onigiri3 from "/IMG_3981.jpg";
+import onigiri4 from "/IMG_3982.jpg";
+import onigiri5 from "/IMG_3983.jpg";
+import onigiri6 from "/IMG_3984.jpg";
+import onigiri7 from "/IMG_3985.jpg";
+import onigiri8 from "/IMG_3986.jpg";
 
 const Beyond = () => {
   return (
@@ -21,6 +29,40 @@ const Beyond = () => {
       <div className="topic fact">
         <p>There are many ways that the Japanese Learning Program at Blair gets engaged with the community outside the classroom.</p>
       </div>
+
+      <div className="topic">
+        <h3>Onigiri Action 2023</h3>
+        <p>Blair's JLP participates in Onigiri Action, a six week event that happens every fall to raise money for hunger. The initiative began in Japan 16 years ago and has since spread world-wide. Learn more about <a href="https://usa.tablefor2.org/onigiri-action">#Onigiri Action</a> organized by <a href="https://usa.tablefor2.org/">Table for Two USA</a>. This year, Blair's JLP classes made over 90 cups of rice to raise money for hunger.</p>
+
+        <figure className="bigger">
+          <img src={onigiri1} alt="students during onigiri action 2023" />
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri2} alt="students during onigiri action 2023" />
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri3} alt="students during onigiri action 2023" />
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri4} alt="students during onigiri action 2023" />
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri5} alt="students during onigiri action 2023" />
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri6} alt="students during onigiri action 2023" />
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri7} alt="students during onigiri action 2023" />
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri8} alt="students during onigiri action 2023" />
+        </figure>
+
+
+      </div>
+
+
       <div className="topic">
         <h3>National Japan Bowl</h3>
         <p> Every year, students from Blair compete at the <a href="https://japanbowl.org/31st-national-japan-bowl/">National Japan Bowl</a>.</p>

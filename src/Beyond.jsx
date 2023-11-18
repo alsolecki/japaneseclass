@@ -17,6 +17,7 @@ import japantrip9 from "/japantrip-09.jpg";
 import japantrip10 from "/jlp-class2017.jpg"
 import japantrip11 from "/japantrip11.jpg"
 import japantrip12 from "/japantrip12.jpg"
+import onigiri11 from "/onigiri-11.jpeg"
 import onigiri1 from "/IMG_3979.jpg";
 import onigiri2 from "/IMG_3980.jpg";
 import onigiri4 from "/IMG_3982.jpg";
@@ -42,6 +43,10 @@ const Beyond = () => {
         <h3>Onigiri Action 2023</h3>
         <p>Blair's JLP participates in Onigiri Action, a six week event that happens every fall to raise money for hunger. The initiative began in Japan 16 years ago and has since spread world-wide. Learn more about <a href="https://usa.tablefor2.org/onigiri-action">#Onigiri Action</a> organized by <a href="https://usa.tablefor2.org/">Table for Two USA</a>. Each year, Blair's JLP classes make up to 15 pounds of rice to raise money for hunger. The event was also featured in Blair's school newsletter <a href="https://silverchips.mbhs.edu/content/blair-hosts-onigiri-making-event-in-media-center-36103/">Silver Chips Online</a>.</p>
 
+        <figure className="bigger">
+          <img src={onigiri11} alt="students during onigiri action 2023" />
+          <figcaption>Blair students make onigiri to fight hunger.</figcaption>
+        </figure>
         <figure className="bigger">
           <img src={onigiri1} alt="students during onigiri action 2023" />
         </figure>

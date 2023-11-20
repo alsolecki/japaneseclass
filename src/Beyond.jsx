@@ -21,9 +21,10 @@ import onigiri11 from "/onigiri-11.jpeg"
 import onigiri1 from "/IMG_3979.jpg";
 import onigiri2 from "/IMG_3980.jpg";
 import onigiri4 from "/IMG_3982.jpg";
-import onigiri5 from "/IMG_3983.jpg";
+import onigiri5 from "/image6.jpeg";
 import onigiri7 from "/IMG_3985.jpg";
 import onigiri8 from "/IMG_3986.jpg";
+import onigiri9 from "/image7.jpeg";
 import akimatsuri1 from "/akimatsuri01.jpg";
 import akimatsuri2 from "/akimatsuri02.jpg";
 import akimatsuri3 from "/akimatsuri03.jpg";
@@ -57,13 +58,17 @@ const Beyond = () => {
           <img src={onigiri4} alt="students during onigiri action 2023" />
         </figure>
         <figure className="bigger">
-          <img src={onigiri5} alt="students during onigiri action 2023" />
-        </figure>
-        <figure className="bigger">
           <img src={onigiri7} alt="students during onigiri action 2023" />
         </figure>
         <figure className="bigger">
           <img src={onigiri8} alt="students during onigiri action 2023" />
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri9} alt="students during onigiri action 2023" />
+          <figcaption>Instructor Zoll demonstrates how to make onigiri.</figcaption>
+        </figure>
+        <figure className="bigger">
+          <img src={onigiri5} alt="students during onigiri action 2023" />
         </figure>
       </div>
 

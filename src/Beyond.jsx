@@ -154,11 +154,11 @@ const Beyond = () => {
         </figure>
         <figure className="bigger">
           <img src={japantrip11} alt="class in Japan" />
-          <figcaption>Blair students with Mrs. Akie Abe.</figcaption>
+          <figcaption>Blair students with former First Lady Mrs. Akie Abe.</figcaption>
         </figure>
         <figure className="bigger">
           <img src={japantrip12} alt="class in Japan" />
-          <figcaption>Blair students with Mrs. Akie Abe.</figcaption>
+          <figcaption>Blair students with former First Lady Mrs. Akie Abe.</figcaption>
         </figure>
         <figure className="bigger">
           <img src={japantrip1} alt="class in Japan" />

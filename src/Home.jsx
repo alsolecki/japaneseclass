@@ -26,7 +26,6 @@ const Home = () => {
       <img src={street2} alt="Japanese street scene" />
       <Factoid
         factoid={"There are over 128 million Japanese speakers globally."}
-        color="var(--blair-red1-color)"
       />
       <img src={tokyo} alt="Skyline of Tokyo, Japan" />
 
@@ -48,7 +47,7 @@ const Home = () => {
 
       <img src={robots} alt="japanese robots demonstrating on stage" />
 
-      <div className="topic fact">
+      <div className="topic">
         <p>The Japanese are innovators and have relied on their creativity and scientific know-how to succeed not only economically but also in ecology- and effiency-oriented ways. <strong>The Japanese are known as high tech leaders</strong> in fields such as optical media, semiconductor manufacturing, and industrial robotics. </p>
       </div>
 
@@ -58,7 +57,7 @@ const Home = () => {
 
       <img src={jetclass} alt="jet class" />
 
-      <div className="topic fact">
+      <div className="topic">
         <p>In communities across the United States, there are a wide variety of employment opportunities at Japan-related workplaces. <strong>Learning Japanese will help you stand out</strong>, but not just because of language skills: These organizations are looking for candidates who have Japan-style business "soft skills" and cultural familiarity, which are taught in Japanese courses! </p>
       </div>
 
@@ -81,7 +80,7 @@ const Home = () => {
         quote={" Knowing Japanese Will Set You Apart From the Crowd"}
       />
 
-      <div className="topic fact">
+      <div className="topic">
         <p>The majority of people who learn a foreign language choose a European language like Spanish, French, German, or Italian. Choosing <strong>a less commonly learned language will pop out on your resume</strong> and differentiate you from the crowd.</p>
       </div>
 
@@ -95,7 +94,7 @@ const Home = () => {
       <img src={jpop} alt="jpop performers on stage" />
 
 
-      <div className="topic fact">
+      <div className="topic">
         <p>From anime to sushi bars, karaoke to manga, bonsai to origami, <strong>Japanese culture has become part of international culture.</strong> A knowledge of the language will give you direct access to Japanese film, animations, and comic books, give you insight into the special terminology used in your favorite martial art, help you understand the cultural basis of the samurai warrior, and develop your ability to order sashimi like a native at your favorite Japanese restaurant!</p>
       </div>
 

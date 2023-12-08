@@ -11,7 +11,7 @@ import CalltoAction from './CalltoAction.jsx'
 
 function App() {
 
-  const [ callVisible, setCallVisible ] = useState(true);
+  const [ callVisible, setCallVisible ] = useState(false);
 
   // const handleCallVisible = () => {
     //   if (callVisible) {

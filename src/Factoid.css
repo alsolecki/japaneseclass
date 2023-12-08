@@ -1,0 +1,22 @@
+.facts {
+    color: var(--med-blue1-color);
+    width: 80%;
+    margin: 0 auto 0;
+    padding: 1rem 2rem;
+  }
+  
+  .facts h4 {
+    padding: 1.25rem 0.25rem;
+    font-size: 1.5rem;
+    line-height: 2.25rem;;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .facts h5 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 300;
+    margin: -1rem 0 3rem;
+  }

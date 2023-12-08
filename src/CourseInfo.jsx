@@ -1,11 +1,16 @@
 import React from 'react'
 import writing from "/japaneseWritingTypes.jpeg";
 import courses from "/courseGraphic.jpeg";
-
+import Bar from './Bar.jsx'
 
 const CourseInfo = () => {
   return (
     <div className="main-content courseinfo">
+      <Bar
+        quote={"Course Information"}
+        bgColor={"var(--blair-red2-color)"}
+        textColor={"var(--blair-white1-color)"}
+      />
       <div className="topic fact">
         <p>The goal of the Japanese Learning Program is to help students become more knowledgeable and active in our increasingly global society.</p>
       </div>

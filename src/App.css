@@ -13,7 +13,7 @@
 }
 
 header {
-  color: aliceblue;
+  color: var(--blair-white2-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,7 +65,7 @@ footer {
 }
 
 .title {
-  color: aliceblue;
+  color: var(--blair-white2-color);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -101,7 +101,7 @@ footer {
 .contact-box {
   width: 60vw;
   margin: 1rem auto 1rem;
-  color: aliceblue;
+  color: var(--blair-white2-color);
   font-size: 0.8rem;
   line-height: 0.9rem;
   text-align: center;
@@ -110,7 +110,7 @@ footer {
 }
 
 .call-to-action-modal {
-  color: aliceblue;
+  color: var(--blair-white2-color);
   text-align: center;
   width: 80%;
   height: 180px;
@@ -167,16 +167,16 @@ footer {
   font-weight: 100;
   font-size: 1.25rem;
   line-height: 1.85rem;
-  padding: 0 0.25rem;
+  padding: 0.5rem 0.25rem;
 }
 .topic p {
   margin: 1rem 0;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
 }
 
 .topic h3 {
   color: var(--blair-red1-color);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 figcaption {

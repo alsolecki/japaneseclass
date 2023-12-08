@@ -11,58 +11,51 @@ import CalltoAction from './CalltoAction.jsx'
 
 function App() {
 
-  const [ callVisible, setCallVisible ] = useState(false);
+  const [callVisible, setCallVisible] = useState(true);
 
   // const handleCallVisible = () => {
-    //   if (callVisible) {
-      //     setCallVisible(false)
-      //   }  
-      //   console.log('change')
-      // }
-  
-  
+  //   if (callVisible) {
+  //     setCallVisible(false)
+  //   }  
+  //   console.log('change')
+  // }
+
+
   let menuRef = useRef;
-      
+
   useEffect(() => {
     let handler = (e) => {
-        // if (!menuRef.current.contains(e.target)) {
-        //     setCallVisible(false);
-        // }
-        // console.log(e.target.className);
-
-        if(e.target.className == "call-to-action-bg") {
-          setCallVisible(false);
-        }
+      if (e.target.className == "call-to-action-bg") {
+        setCallVisible(false);
+      }
     };
 
-    document.addEventListener("mousedown", handler )
+    document.addEventListener("mousedown", handler)
 
-    return() => {
-        document.removeEventListener("mousedown", handler )
+    return () => {
+      document.removeEventListener("mousedown", handler)
     }
-});
+  });
 
-  
 
   return (
     <>
-      {callVisible && <CalltoAction setCallVisible={ setCallVisible } />}
+      {callVisible && <CalltoAction setCallVisible={setCallVisible} />}
       <div className="bg">
         <div className="v-stripe"></div>
       </div>
       <div className="title">
         <h1>Japanese Language Program</h1>
         <h4>Montgomery Blair High School</h4>
-        <button 
+        <button
           onClick={() => setCallVisible(true)}
-          style={{background: "transparent", border: "none", color: "var(--med-blue1-color)", marginTop: "0.5rem", cursor: "pointer"
-        }}>Click Here For Registration Info</button>
+          style={{
+            background: "transparent", border: "none", color: "var(--med-blue1-color)", marginTop: "0.5rem", cursor: "pointer"
+          }}>Click Here For Registration Info</button>
       </div>
-        
-      
-      
+
+
       <div className="container">
-        
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -70,7 +63,8 @@ function App() {
           <Route path="beyond" element={<Beyond />} />
         </Routes>
       </div>
-        <Footer />
+
+      <Footer />
     </>
   )
 }

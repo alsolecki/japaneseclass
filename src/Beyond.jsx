@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Bar from './Bar.jsx'
 import bowl1 from "/Japan Bowl 4-13-23.jpeg";
 import bowl2 from "/Japan Bowl 4-13-23 2 2.jpeg";
 import whitehouse1 from "/whitehousevisit-1.jpeg";
@@ -36,6 +37,11 @@ import akimatsuri7 from "/akimatsuri07.jpg";
 const Beyond = () => {
   return (
     <div className="main-content beyond">
+      <Bar
+        quote={"Beyond the Classroom"}
+        bgColor={"var(--blair-red2-color)"}
+        textColor={"var(--blair-white1-color)"}
+      />
       <div className="topic fact">
         <p>There are many ways that the Japanese Learning Program at Blair gets engaged with the community outside the classroom.</p>
       </div>
@@ -168,7 +174,7 @@ const Beyond = () => {
           <img src={japantrip2} alt="class in Japan" />
           <figcaption>Buddah in Kamakura.</figcaption>
         </figure>
-       
+
         <figure className="bigger">
           <img src={japantrip4} alt="class in Japan" />
           <figcaption>Visiting a Japanese high school.</figcaption>

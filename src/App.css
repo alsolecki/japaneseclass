@@ -29,11 +29,19 @@ header .banner {
 }
 
 footer {
-  /* border: green 4px solid; */
   width: 100%;
   margin: 1rem 0 2rem;
   padding-bottom: 1rem;
 }
+footer p {
+  padding-top: 0.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
 
 .bg {
   background-image: url('/Japanese-Pattern-1red.jpg');

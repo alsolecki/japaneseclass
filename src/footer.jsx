@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
         <div className="contact-box">
           <p>Instructor Yoko H. Zoll</p>
-          <p>Yoko_H_Zoll@mcpsmd.org</p>
+          <a href="mailto:yoko.h.zoll@mcpsmd.net"><p>yoko.h.zoll@mcpsmd.net</p></a>
           <p>Montgomery Blair High School</p>
           <p>copyright &#169;2023</p>
         </div>

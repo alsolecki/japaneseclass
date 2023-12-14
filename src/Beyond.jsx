@@ -32,7 +32,7 @@ import akimatsuri3 from "/akimatsuri03.jpg";
 import akimatsuri5 from "/akimatsuri05.jpg";
 import akimatsuri6 from "/akimatsuri06.jpg";
 import akimatsuri7 from "/akimatsuri07.jpg";
-
+import embassyVisitors from '/japan-embassy-visits-blair.jpeg'
 
 const Beyond = () => {
   return (
@@ -47,8 +47,20 @@ const Beyond = () => {
       </div>
 
       <div className="topic">
+        <h3>Visitors from Japan Embassy</h3>
+        <p>In November, Mr. Taichi Kaneshiro, Counsellor of Education and Ms. Tomoko Nakamura, First Secretary visited Blair. <a href="https://twitter.com/JapanEmbDC/status/1734678876343922991" target="_blank" rel="noopener noreferrer">#social media post</a></p>
+        
+
+        <figure className="bigger">
+          <img src={embassyVisitors} alt="students during onigiri action 2023" />
+          <figcaption>Blair Principal Johnson, Mr. Taichi Kaneshiro, Ms. Tomoko Nakamura and Instructor Zoll.</figcaption>
+        </figure>
+
+      </div>
+
+      <div className="topic">
         <h3>Onigiri Action 2023</h3>
-        <p>Blair's JLP participates in <a href="https://usa.tablefor2.org/onigiri-action">#Onigiri Action</a>, a six week event that happens every fall. Making onigiri provides meals for children in need through <a href="https://usa.tablefor2.org/">Table for Two</a>. The initiative began in Japan 16 years ago and has since spread world-wide. Each year, Blair's JLP classes make up to 15 pounds of rice to raise money for hunger. The event was also featured in Blair's school newsletter <a href="https://silverchips.mbhs.edu/content/blair-hosts-onigiri-making-event-in-media-center-36103/">Silver Chips Online</a>.</p>
+        <p>Blair's JLP participates in <a href="https://usa.tablefor2.org/onigiri-action" target="_blank" rel="noopener noreferrer">#Onigiri Action</a>, a six week event that happens every fall. Making onigiri provides meals for children in need through <a href="https://usa.tablefor2.org/" target="_blank" rel="noopener noreferrer">Table for Two</a>. The initiative began in Japan 16 years ago and has since spread world-wide. Each year, Blair's JLP classes make up to 15 pounds of rice to raise money for hunger. The event was also featured in Blair's school newsletter <a href="https://silverchips.mbhs.edu/content/blair-hosts-onigiri-making-event-in-media-center-36103/" target="_blank" rel="noopener noreferrer">Silver Chips Online</a>.</p>
 
         <figure className="bigger">
           <img src={onigiri9} alt="students during onigiri action 2023" />
@@ -79,7 +91,7 @@ const Beyond = () => {
 
       <div className="topic">
         <h3>National Japan Bowl</h3>
-        <p> Every year, students from Blair compete at the <a href="https://japanbowl.org/31st-national-japan-bowl/">National Japan Bowl</a>.</p>
+        <p> Every year, students from Blair compete at the <a href="https://japanbowl.org/31st-national-japan-bowl/" target="_blank" rel="noopener noreferrer">National Japan Bowl</a>.</p>
         <figure className="bigger">
           <img src={bowl1} alt="class at Japan Bowl 2023" />
           <figcaption>Three students with Instructor Yoko Zoll at Japan Bowl 2023</figcaption>

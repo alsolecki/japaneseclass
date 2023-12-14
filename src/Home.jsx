@@ -20,7 +20,7 @@ const Home = () => {
       />
 
       <div className="topic fact">
-        <p>There are many reasons to learn Japanese and <strong>Montgomery Blair H.S. is one of just four high schools in Montgomery County that offer a Japanese Language Program</strong>. Studying the Japanese language and culture will open the door to many new and exciting opportunities!</p>
+        <p>There are many reasons to learn Japanese and <strong>Montgomery Blair H.S. is one of just four high schools in Montgomery County that offers a Japanese Language Program</strong>. Studying the Japanese language and culture will open the door to many new and exciting opportunities!</p>
       </div>
 
       <img src={street2} alt="Japanese street scene" />
@@ -34,7 +34,7 @@ const Home = () => {
       />
 
       <div className="topic">
-        <p>The U.S. and Japan are allies and ranked first and third largest economies in the world! <strong>Japan is a prosperous country and has the most diverse economy in Asia.</strong> Familiar names like Sony, Toshiba, Nikon, Sanyo, Casio, Canon, Minolta, Honda, Toyota, Mitsubishi, and many others have infiltrated the world market in a variety of sectors.</p>
+        <p>The U.S. and Japan are allies and ranked first and third largest economies in the world! <strong>Japan is a prosperous country and has the most diverse economy in Asia.</strong> Familiar names like Sony, Toshiba, Nikon, Sanyo, Nintendo, Casio, Canon, Minolta, Honda, Toyota, Mitsubishi, and many others have infiltrated the world market in a variety of sectors.</p>
       </div>
 
       <Factoid

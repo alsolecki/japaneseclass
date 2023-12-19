@@ -121,7 +121,7 @@ footer a {
   color: var(--blair-white2-color);
   text-align: center;
   width: 80%;
-  height: 180px;
+  height: 18rem;
   margin: 0.5rem auto 0.5rem;
   padding: 0.5rem 0 0.5rem;
   background-color: var(--blair-red2-color);
@@ -146,12 +146,25 @@ footer a {
 .call-info {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem 0;
+  padding: 2.5rem 0;
 }
 
 .call-info p {
   padding: 0.5rem 0;
   font-size: 1.25rem;
+}
+.call-info a {
+  font-size: 1.5rem;
+  padding: 0.5rem 0 0.5rem;
+}
+.call-info ul {
+  margin: 0 auto 0;
+}
+
+.call-info li {
+  list-style: disc;
+  padding: 0.25rem 0 0.25rem;
+  text-align: start;
 }
 
 .container {

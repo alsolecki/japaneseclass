@@ -1,6 +1,7 @@
 import React from 'react'
 
 const CalltoAction = ({ setCallVisible }) => {
+
   return (
     <div className="call-to-action-bg">
       <div className="call-to-action-modal">

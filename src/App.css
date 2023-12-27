@@ -155,7 +155,7 @@ footer a {
 }
 .call-info a {
   font-size: 1.5rem;
-  padding: 0.5rem 0 0.5rem;
+  padding: 0.5rem 0 0.75rem;
 }
 .call-info ul {
   margin: 0 auto 0;
@@ -269,4 +269,12 @@ figure.biggest {
     background-color: var(--blair-white1-color);
     list-style-type: none;
   }
+}
+
+@media screen and (max-width: 450px) {
+  
+  .call-info li {
+    font-size: 0.75rem;
+  }
+  
 }

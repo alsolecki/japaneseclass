@@ -18,8 +18,8 @@ const CalltoAction = ({ setCallVisible }) => {
           }}
           onClick={() => setCallVisible(false)}>&#x2715;</button>
         <div className="call-info">
-          <h3>** 2024 Registration Is Now Open **</h3>
-          <p><a href="https://sites.google.com/mcpsmd.net/mbhscoursebulletin/world-languages?authuser=0" target="_blank" rel="noopener noreferrer">Sign Up Now!</a></p>
+          {/* <h3>** 2024 Registration Is Now Open **</h3> */}
+          <p><a href="https://sites.google.com/mcpsmd.net/mbhscoursebulletin/world-languages?authuser=0" target="_blank" rel="noopener noreferrer">More About World Languages at Blair</a></p>
           <ul>
             <li><strong>WLG2081A/B</strong> Japanese 1 A/B</li>
             <li><strong>WLG2082A/B</strong> Japanese 2 A/B</li>

@@ -34,11 +34,11 @@ const Home = () => {
       />
 
       <div className="topic">
-        <p>The U.S. and Japan are allies and ranked first and third largest economies in the world! <strong>Japan is a prosperous country and has the most diverse economy in Asia.</strong> Familiar names like Sony, Toshiba, Nikon, Sanyo, Nintendo, Casio, Canon, Minolta, Honda, Toyota, Mitsubishi, and many others have infiltrated the world market in a variety of sectors.</p>
+        <p>The U.S. and Japan are allies and ranked first and fourth largest economies in the world! <strong>Japan is a prosperous country and has the most diverse economy in Asia.</strong> Familiar names like Sony, Toshiba, Nikon, Sanyo, Nintendo, Casio, Canon, Minolta, Honda, Toyota, Mitsubishi, and many others have infiltrated the world market in a variety of sectors.</p>
       </div>
 
       <Factoid
-        factoid={"Japan is the third largest economy in the world."}
+        factoid={"Japan is the fourth largest economy in the world."}
       />
 
       <div className="topic">

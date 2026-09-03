@@ -22,13 +22,13 @@ import taikoDrumming1 from "/taiko-drumming-01.jpg"
 const events = [
   {
     title: "Sakura Cherry Trees",
-    description: <p>Through ANA's Cherry Blossom Tree Planting Program, two schools in the DMV are selected each year to receive donated cherry trees. Blair High School was selected for the program in 2024.</p>,
+    description: <p>In 2024, Montgomery Blair High School was selected to participate in ANA’s cherry tree donation program, which recognizes two schools in the Washington, D.C. area each year. The project brought together students, school staff, community leaders, and representatives of ANA and the National Cherry Blossom Festival to celebrate Japanese culture and friendship.</p>,
     photos: [
-      { src: sakuraPlanting, alt: "workers and a student planting a cherry tree", caption: "Planting the donated cherry tree at Blair, November 2024." },
-      { src: sakuraCeremony, alt: "students and guests at the tree donation ceremony", caption: "Planting Ceremony with Blair students and staff, ANA and National Cherry Blossom Festival representatives, and members of the Montgomery County Board of Education." },
-      { src: sakuraCraft, alt: "paper cherry blossom tree crafts made by students", caption: "Ten 3D printed cherry tree gifts." },
-      { src: sakuraBloom, alt: "Blair students next to the cherry tree in bloom", caption: "The cherry tree in bloom in the spring of 2026." },
-      { src: sakuraNewspaper, alt: "newspaper clipping covering the cherry tree donation", caption: "Coverage of the donation in the Sakura DC & Houston newspaper, December 2024." }
+      { src: sakuraPlanting, alt: "workers and a student planting a cherry tree", caption: "Planting donated trees on the Blair campus in November 2024." },
+      { src: sakuraCeremony, alt: "students and guests at the tree donation ceremony", caption: "At Blair’s Cherry Tree Planting Ceremony in November 2024, four members of the Montgomery County Board of Education, including the Board President, joined students, staff, representatives of ANA and the National Cherry Blossom Festival, and the district’s World Languages Supervisor to celebrate the tree donation." },
+      { src: sakuraCraft, alt: "paper cherry blossom tree crafts made by students", caption: "Ten 3D-printed cherry blossom trees were created as commemorative gifts for special guests at the ceremony." },
+      { src: sakuraBloom, alt: "Blair students next to the cherry tree in bloom", caption: "Blair students gather beside the donated cherry tree in bloom in spring 2026." },
+      { src: sakuraNewspaper, alt: "newspaper clipping covering the cherry tree donation", caption: "The Cherry Tree Planting Ceremony was featured on the front page of the December 2024 issue of Sakura Newspaper, the only Japanese-language newspaper serving the DC area." }
     ]
   },
   {

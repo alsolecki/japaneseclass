@@ -27,7 +27,7 @@ const Home = () => {
       <Factoid
         factoid={"There are over 128 million Japanese speakers globally."}
       />
-      <img src={tokyo} alt="Skyline of Tokyo, Japan" />
+      <img src={tokyo} alt="Skyline of Tokyo, Japan" loading="lazy" />
 
       <Bar
         quote={"Greater Business Potential"}
@@ -45,7 +45,7 @@ const Home = () => {
         <p>Being able to communicate with potential customers in their own language is key to winning their business. In addition, when you learn Japanese, you become not only proficient in the language but also gain an insider view of the culture.</p>
       </div>
 
-      <img src={robots} alt="japanese robots demonstrating on stage" />
+      <img src={robots} alt="japanese robots demonstrating on stage" loading="lazy" />
 
       <div className="topic">
         <p>The Japanese are innovators and have relied on their creativity and scientific know-how to succeed not only economically but also in ecology- and effiency-oriented ways. <strong>The Japanese are known as high tech leaders</strong> in fields such as optical media, semiconductor manufacturing, and industrial robotics. </p>
@@ -55,7 +55,7 @@ const Home = () => {
         quote={"Educational & Professional Opportunities"}
       />
 
-      <img src={jetclass} alt="jet class" />
+      <img src={jetclass} alt="jet class" loading="lazy" />
 
       <div className="topic">
         <p>In communities across the United States, there are a wide variety of employment opportunities at Japan-related workplaces. <strong>Learning Japanese will help you stand out</strong>, but not just because of language skills: These organizations are looking for candidates who have Japan-style business "soft skills" and cultural familiarity, which are taught in Japanese courses! </p>
@@ -85,20 +85,20 @@ const Home = () => {
       </div>
 
 
-      <img src={anime} alt="japanese anime characters" />
+      <img src={anime} alt="japanese anime characters" loading="lazy" />
 
       <Bar
         quote={"Japanese Cultural Exports Are Exploding!"}
       />
 
-      <img src={jpop} alt="jpop performers on stage" />
+      <img src={jpop} alt="jpop performers on stage" loading="lazy" />
 
 
       <div className="topic">
         <p>From anime to sushi bars, karaoke to manga, bonsai to origami, <strong>Japanese culture has become part of international culture.</strong> A knowledge of the language will give you direct access to Japanese film, animations, and comic books, give you insight into the special terminology used in your favorite martial art, help you understand the cultural basis of the samurai warrior, and develop your ability to order sashimi like a native at your favorite Japanese restaurant!</p>
       </div>
 
-      <img src={sushi} alt="large plate of sushi on a table" />
+      <img src={sushi} alt="large plate of sushi on a table" loading="lazy" />
 
     </div>
   )

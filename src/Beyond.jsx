@@ -16,7 +16,7 @@ const Beyond = () => {
           {event.description}
           {event.photos.map((photo, i) => (
             <figure className="bigger" key={photo.src + i}>
-              <img src={photo.src} alt={photo.alt} />
+              <img src={photo.src} alt={photo.alt} loading="lazy" />
               {photo.caption && <figcaption>{photo.caption}</figcaption>}
             </figure>
           ))}

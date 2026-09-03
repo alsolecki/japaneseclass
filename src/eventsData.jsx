@@ -43,7 +43,7 @@ const events = [
     ]
   },
   {
-    title: "Japan Bowl 2026",
+    title: "National Japan Bowl",
     description: null,
     photos: [
       { src: japanBowl2026_1, alt: "National Japan Bowl trophy, Level IV 5th place" },

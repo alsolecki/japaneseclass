@@ -11,9 +11,6 @@ import onigiriAction1 from "/onigiri-action-01.jpg"
 import onigiriAction2 from "/onigiri-action-02.png"
 import onigiriAction3 from "/onigiri-action-03.jpg"
 import taikoDrumming1 from "/taiko-drumming-01.jpg"
-import japantrip10 from "/jlp-class2017.jpg"
-import japantrip11 from "/japantrip11.jpg"
-import japantrip12 from "/japantrip12.jpg"
 
 // Each entry below becomes one section on the "Beyond the Classroom" page.
 //
@@ -70,15 +67,6 @@ const events = [
     description: <p>Takumi Kato, known as Peaceful Forest, is a world champion taiko drummer from Japan who performs with his three children. Together, they gave a thrilling performance at Blair in May 2025.</p>,
     photos: [
       { src: taikoDrumming1, alt: "taiko drumming performance in the school lobby" }
-    ]
-  },
-  {
-    title: "Trips to Japan",
-    description: <p>In 2010, 2014 and 2019 Blair students visited Japan.</p>,
-    photos: [
-      { src: japantrip10, alt: "class in Japan", caption: "Kakehashi Japan Bowl 2019 group picture." },
-      { src: japantrip11, alt: "class in Japan", caption: "Blair students with former First Lady Mrs. Akie Abe." },
-      { src: japantrip12, alt: "class in Japan", caption: "Blair students with former First Lady Mrs. Akie Abe." }
     ]
   }
 ]

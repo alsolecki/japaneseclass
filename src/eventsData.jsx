@@ -64,7 +64,7 @@ const events = [
   },
   {
     title: "Taiko Drumming",
-    description: <p>Takumi Kato, known as Peaceful Forest, is a world champion taiko drummer from Japan who performs with his three children. Together, they gave a thrilling performance at Blair in May 2025.</p>,
+    description: <p>Takumi Kato, known as <a href="https://peacefulforest.org/" target="_blank" rel="noopener noreferrer">Peaceful Forest</a>, is a world champion taiko drummer from Japan who performs with his three children. Together, they gave a thrilling performance at Blair in May 2025.</p>,
     photos: [
       { src: taikoDrumming1, alt: "taiko drumming performance in the school lobby" }
     ]

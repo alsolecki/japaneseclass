@@ -41,10 +41,15 @@ const events = [
   },
   {
     title: "National Japan Bowl",
-    description: null,
+    description: (
+      <p>
+        Blair students participate annually in the{" "}
+        <a href="https://japanbowl.org/" target="_blank" rel="noopener noreferrer">National Japan Bowl</a>, a nationwide academic competition that tests students’ knowledge of Japanese language and culture.
+      </p>
+    ),
     photos: [
-      { src: japanBowl2026_1, alt: "National Japan Bowl trophy, Level IV 5th place" },
-      { src: japanBowl2026_2, alt: "Blair students at the National Japan Bowl" }
+      { src: japanBowl2026_1, alt: "National Japan Bowl trophy, Level IV 5th place", caption: "In 2025, Blair’s Level 4 team placed 5th among 20 teams, tying the school’s best-ever result for the third time." },
+      { src: japanBowl2026_2, alt: "Blair students at the National Japan Bowl", caption: "Blair students and Zoll sensei at the 34th National Japan Bowl in 2026." }
     ]
   },
   {

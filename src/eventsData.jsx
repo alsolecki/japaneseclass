@@ -10,6 +10,7 @@ import japanBowl2026_2 from "/japan-bowl-2026-02.jpg"
 import onigiriAction1 from "/onigiri-action-01.jpg"
 import onigiriAction2 from "/onigiri-action-02.png"
 import onigiriAction3 from "/onigiri-action-03.jpg"
+import taikoDrumming1 from "/taiko-drumming-01.jpg"
 import japantrip10 from "/jlp-class2017.jpg"
 import japantrip11 from "/japantrip11.jpg"
 import japantrip12 from "/japantrip12.jpg"
@@ -62,6 +63,13 @@ const events = [
       { src: onigiriAction1, alt: "students holding plates of onigiri in front of an Onigiri Action screen" },
       { src: onigiriAction2, alt: "student holding two onigiri" },
       { src: onigiriAction3, alt: "students making onigiri at a table" }
+    ]
+  },
+  {
+    title: "Taiko Drumming",
+    description: null,
+    photos: [
+      { src: taikoDrumming1, alt: "taiko drumming performance in the school lobby" }
     ]
   },
   {

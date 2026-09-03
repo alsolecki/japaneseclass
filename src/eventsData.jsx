@@ -3,6 +3,8 @@ import sakuraCeremony from "/sakura-ceremony-01.jpg"
 import sakuraCraft from "/sakura-craft-01.jpg"
 import sakuraBloom from "/sakura-bloom-01.jpg"
 import sakuraNewspaper from "/sakura-newspaper-2024-12.jpg"
+import electiveFair1 from "/elective-fair-01.jpg"
+import electiveFair2 from "/elective-fair-02.jpg"
 import japantrip10 from "/jlp-class2017.jpg"
 import japantrip11 from "/japantrip11.jpg"
 import japantrip12 from "/japantrip12.jpg"
@@ -24,6 +26,14 @@ const events = [
       { src: sakuraCraft, alt: "paper cherry blossom tree crafts made by students", caption: "Paper cherry blossom trees made by students for the celebration." },
       { src: sakuraBloom, alt: "Blair students next to the cherry tree in bloom", caption: "The cherry tree in bloom the following spring." },
       { src: sakuraNewspaper, alt: "newspaper clipping covering the cherry tree donation", caption: "Coverage of the donation in the Sakura DC & Houston newspaper, December 2024." }
+    ]
+  },
+  {
+    title: "Elective Fair",
+    description: null,
+    photos: [
+      { src: electiveFair1, alt: "students at the Japanese elective fair table" },
+      { src: electiveFair2, alt: "students at the Japanese elective fair table" }
     ]
   },
   {

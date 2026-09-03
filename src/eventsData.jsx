@@ -32,7 +32,7 @@ const events = [
     ]
   },
   {
-    title: "Elective Fair",
+    title: "Blair Elective Fair, October 2025",
     description: null,
     photos: [
       { src: electiveFair1, alt: "students at the Japanese elective fair table" },

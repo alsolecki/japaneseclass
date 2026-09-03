@@ -28,7 +28,7 @@ const events = [
     description: <p>Through ANA's Cherry Blossom Tree Planting Program, two schools in the DMV are selected each year to receive donated cherry trees. Blair High School was selected for the program in 2024.</p>,
     photos: [
       { src: sakuraPlanting, alt: "workers and a student planting a cherry tree", caption: "Planting the donated cherry tree at Blair, November 2024." },
-      { src: sakuraCeremony, alt: "students and guests at the tree donation ceremony", caption: "Blair students and staff with ANA and National Cherry Blossom Festival representatives at the planting ceremony." },
+      { src: sakuraCeremony, alt: "students and guests at the tree donation ceremony", caption: "Planting Ceremony with Blair students and staff, ANA and National Cherry Blossom Festival representatives, and members of the Montgomery County Board of Education." },
       { src: sakuraCraft, alt: "paper cherry blossom tree crafts made by students", caption: "Ten 3D printed cherry tree gifts." },
       { src: sakuraBloom, alt: "Blair students next to the cherry tree in bloom", caption: "The cherry tree in bloom in the spring of 2026." },
       { src: sakuraNewspaper, alt: "newspaper clipping covering the cherry tree donation", caption: "Coverage of the donation in the Sakura DC & Houston newspaper, December 2024." }

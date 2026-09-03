@@ -30,7 +30,7 @@ const events = [
       { src: sakuraPlanting, alt: "workers and a student planting a cherry tree", caption: "Planting the donated cherry tree at Blair, November 2024." },
       { src: sakuraCeremony, alt: "students and guests at the tree donation ceremony", caption: "Blair students and staff with ANA and National Cherry Blossom Festival representatives at the planting ceremony." },
       { src: sakuraCraft, alt: "paper cherry blossom tree crafts made by students", caption: "Ten 3D printed cherry tree gifts" },
-      { src: sakuraBloom, alt: "Blair students next to the cherry tree in bloom", caption: "The cherry tree in bloom the following spring." },
+      { src: sakuraBloom, alt: "Blair students next to the cherry tree in bloom", caption: "The cherry tree in bloom in the spring of 2026" },
       { src: sakuraNewspaper, alt: "newspaper clipping covering the cherry tree donation", caption: "Coverage of the donation in the Sakura DC & Houston newspaper, December 2024." }
     ]
   },

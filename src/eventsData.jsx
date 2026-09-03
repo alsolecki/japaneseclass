@@ -5,6 +5,8 @@ import sakuraBloom from "/sakura-bloom-01.jpg"
 import sakuraNewspaper from "/sakura-newspaper-2024-12.jpg"
 import electiveFair1 from "/elective-fair-01.jpg"
 import electiveFair2 from "/elective-fair-02.jpg"
+import japanBowl2026_1 from "/japan-bowl-2026-01.jpg"
+import japanBowl2026_2 from "/japan-bowl-2026-02.jpg"
 import japantrip10 from "/jlp-class2017.jpg"
 import japantrip11 from "/japantrip11.jpg"
 import japantrip12 from "/japantrip12.jpg"
@@ -34,6 +36,14 @@ const events = [
     photos: [
       { src: electiveFair1, alt: "students at the Japanese elective fair table" },
       { src: electiveFair2, alt: "students at the Japanese elective fair table" }
+    ]
+  },
+  {
+    title: "Japan Bowl 2026",
+    description: null,
+    photos: [
+      { src: japanBowl2026_1, alt: "National Japan Bowl trophy, Level IV 5th place" },
+      { src: japanBowl2026_2, alt: "Blair students at the National Japan Bowl" }
     ]
   },
   {

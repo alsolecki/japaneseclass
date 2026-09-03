@@ -10,10 +10,6 @@ const Beyond = () => {
         bgColor={"var(--blair-red2-color)"}
         textColor={"var(--blair-white1-color)"}
       />
-      <div className="topic fact">
-        <p>There are many ways that the Japanese Learning Program at Blair gets engaged with the community outside the classroom.</p>
-      </div>
-
       {events.map((event) => (
         <div className="topic" key={event.title}>
           <h3>{event.title}</h3>

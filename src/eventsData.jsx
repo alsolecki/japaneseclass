@@ -25,7 +25,7 @@ import japantrip12 from "/japantrip12.jpg"
 const events = [
   {
     title: "Sakura Cherry Trees",
-    description: <p>Donated by ANA, which selects two schools in the DMV each year, and Blair was selected for the year 2024.</p>,
+    description: <p>Through ANA's Cherry Blossom Tree Planting Program, two schools in the DMV are selected each year to receive donated cherry trees. Blair High School was selected for the program in 2024.</p>,
     photos: [
       { src: sakuraPlanting, alt: "workers and a student planting a cherry tree", caption: "Planting the donated cherry tree at Blair, November 2024." },
       { src: sakuraCeremony, alt: "students and guests at the tree donation ceremony", caption: "Blair students and staff with ANA and National Cherry Blossom Festival representatives at the planting ceremony." },
